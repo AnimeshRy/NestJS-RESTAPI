@@ -1,5 +1,3 @@
-//src/products/products.controller.ts
-import { Product } from '@prisma/client';
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
